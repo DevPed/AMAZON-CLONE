@@ -79,7 +79,7 @@ export default function ProductScreen(props) {
                       product.countInStock > 0 && (
                         <>
                           <li>
-                            <div class="row">
+                            <div className="row">
                               <div>Qty</div>
                               <div>
                                 <select onChange={e => setQty(e.target.value)} value={qty}>
