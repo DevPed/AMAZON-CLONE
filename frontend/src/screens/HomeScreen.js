@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-
 import Product from '../components/Product';
 import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
@@ -14,7 +13,7 @@ export default function HomeScreen() {
 
   useEffect(() => {
     dispatch(listProducts());
-  }, []);
+  }, [dispatch]);
 
   return (
     <div>
