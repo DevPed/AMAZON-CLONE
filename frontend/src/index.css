@@ -35,7 +35,7 @@ main {
 footer {
   grid-area: footer;
   background-color: #303030;
-  color: #201a1a;
+  color: #ffffff;
 }
 /*general*/
 h1 {
@@ -185,4 +185,18 @@ img.large {
 .alert-danger {
   color: #a02020;
   background-color: #f77575;
+}
+/*Form*/
+.form {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+.form > div {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.form label {
+  margin: 1rem 0;
+  display: block;
 }
