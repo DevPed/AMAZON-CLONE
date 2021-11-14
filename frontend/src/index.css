@@ -167,6 +167,9 @@ img.large {
   color: #303030;
 }
 /*Alert*/
+.loading {
+  display: block !important;
+}
 .succes {
   color: #20a020;
 }
